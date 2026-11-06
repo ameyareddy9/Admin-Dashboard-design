@@ -143,6 +143,12 @@ h1, h2, h3, h4, h5, h6 {
   gap: 1rem;
 }
 
+.card-container .card {
+  border-radius: 1rem;
+  border-left: 5px solid rgb(150, 0, 0);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
 .announcements .card, .trending .card {
   flex-grow: 1;
   display: flex;
