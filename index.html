@@ -3,6 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="style.css">
         <title>Admin Dashboard</title>
     </head>
@@ -10,26 +15,113 @@
     <body>   
       <div class="container">
         <div class="header">
-        
+          <div class="search-bar">
+            <input type="text">
+          </div>
+          <div class="user_info">Morgan Oakley</div>
+          <div class="greeting">
+            <p class="small">Hi there,</p>
+            <h2>Morgan Oakley (@morgan)</h2>
+          </div>
+          <div class="buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
         </div>
         <div class="sidebar">
-          <div class="DashboardLogo">Dashboard</div>
+          <div class="DashboardLogo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" fill="currentColor"/></svg>
+            <h2>Dashboard</h2>
+          </div>
           <div class="top">
-            <div class="Home">Home</div>
-            <div class="Profile">Profile</div>
-            <div class="Message">Message</div>
-            <div class="History">History</div>
-            <div class="Tasks">Tasks</div>
-            <div class="Communities">Communities</div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>home</title><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" fill="currentColor"/></svg>
+              <h3 class="Home">Home</h3>
+            </div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>account-details</title><path d="M11 9C11 10.66 9.66 12 8 12C6.34 12 5 10.66 5 9C5 7.34 6.34 6 8 6C9.66 6 11 7.34 11 9M14 20H2V18C2 15.79 4.69 14 8 14C11.31 14 14 15.79 14 18M22 12V14H13V12M22 8V10H13V8M22 4V6H13V4Z" fill="currentColor"/></svg>
+              <h3 class="Profile">Profile</h3>
+            </div>
+            <h3 class="Message">Message</h3>
+            <h3 class="History">History</h3>
+            <h3 class="Tasks">Tasks</h3>
+            <h3 class="Communities">Communities</h3>
           </div>
           <div class="bottom">
-            <div class="Settings">Settings</div>
-            <div class="Support">Support</div>
-            <div class="Privacy">Privacy</div>
+            <h3 class="Settings">Settings</h3>
+            <h3 class="Support">Support</h3>
+            <h3 class="Privacy">Privacy</h3>
           </div>
         </div>
         <div class="content">
-
+          <div class="projects">
+            <h3>Projects</h3>
+            <div class="card-container">
+              <div class="card">
+                <h4>Super Cool Project</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis rerum obcaecati tenetur praesentium, quia aspernatur nulla nam doloribus maiores magni.</p>
+              </div>
+              <div class="card">
+                <h4>Less Cool Project</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis rerum obcaecati tenetur praesentium, quia aspernatur nulla nam doloribus maiores magni.</p>
+              </div>
+              <div class="card">
+                <h4>Impossible App</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis rerum obcaecati tenetur praesentium, quia aspernatur nulla nam doloribus maiores magni.</p>
+              </div>
+              <div class="card">
+                <h4>Easy Peasy App</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis rerum obcaecati tenetur praesentium, quia aspernatur nulla nam doloribus maiores magni.</p>
+              </div>
+              <div class="card">
+                <h4>Ad Blocker</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis rerum obcaecati tenetur praesentium, quia aspernatur nulla nam doloribus maiores magni.</p>
+              </div>
+              <div class="card">
+                <h4>Money Maker</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis rerum obcaecati tenetur praesentium, quia aspernatur nulla nam doloribus maiores magni.</p>
+              </div>
+            </div>
+          </div>
+          <div class="announcements">
+            <h3>Announcements</h3>
+            <div class="card">
+              <div>
+                <h5>Site Maintenance</h5>
+                <p style="font-size: 15px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis rerum obcaecati tenetur praesentium, quia.</p>
+              </div>
+              <div>
+                <h5>Community Share Day</h5>
+                <p style="font-size: 15px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis rerum obcaecati tenetur praesentium, quia.</p>
+              </div>
+              <div>
+                <h5>Updated Privacy Policy</h5>
+                <p style="font-size: 15px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis rerum obcaecati tenetur praesentium, quia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="trending">
+            <h3>Trending</h3>
+            <div class="card">
+              <div>
+                <h3>@tegan</h3>
+                <p>World Peace Builder</p>
+              </div>
+              <div>
+                <h3>@morgan</h3>
+                <p>Super Cool Project</p>
+              </div>
+              <div>
+                <h3>@kendall</h3>
+                <p>Life Changing App</p>
+              </div>
+              <div>
+                <h3>@alex</h3>
+                <p>No Traffic Maker</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </body>
